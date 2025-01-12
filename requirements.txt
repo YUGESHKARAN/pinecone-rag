@@ -1,0 +1,9 @@
+langchain_huggingface
+langchain
+python-dotenv
+pinecone-client
+langchain-groq
+langchain-community
+langchain-pinecone
+langchain_core
+langsmith
