@@ -7,3 +7,5 @@ langchain-community
 langchain-pinecone
 langchain_core
 langsmith
+flask
+flask-cors
