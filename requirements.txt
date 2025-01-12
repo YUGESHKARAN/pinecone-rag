@@ -1,7 +1,7 @@
 langchain_huggingface
 langchain
 python-dotenv
-pinecone-client
+# pinecone-client
 langchain-groq
 langchain-community
 langchain-pinecone
