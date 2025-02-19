@@ -47,12 +47,12 @@ embeddings = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-
 retriever = Pinecone(pinecone_index,embeddings.embed_query,text_key)
 
 # Create a retrieval-based QA chain
-retrieval_chain = RetrievalQA.from_chain_type(
-    llm=llm,
-    retriever=retriever.as_retriever(),
-    chain_type="stuff",  # Combines documents with the query
-    return_source_documents=True
-)
+# retrieval_chain = RetrievalQA.from_chain_type(
+#     llm=llm,
+#     retriever=retriever.as_retriever(),
+#     chain_type="stuff",  # Combines documents with the query
+#     return_source_documents=True
+# )
 
 # User input and query
 user_input = input("Enter your query: ")
